@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 8080;
 app.get('/', (req, res) => {
     res.json({
         status:200,
-        message: 'Hello World'
+        message: 'Hello World from Express JS and Node JS'
     });
 });
 
